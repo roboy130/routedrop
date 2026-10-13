@@ -1,0 +1,26 @@
+
+# Python virtual environments
+.venv/
+venv/
+backend/.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Frontend dependencies and build output
+node_modules/
+frontend/dist/
+frontend/build/
+
+# Editor settings
+.vscode/
